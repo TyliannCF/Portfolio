@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=select_to_speak"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="portrait.css">
+    <link rel="stylesheet" href="landscape.css">
+    <link rel="stylesheet" href="color.css"> -->
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav class="bg-black flex items-center justify-between px-6 py-4 fixed w-full z-50 top-0 shadow-md">
+    <div class="flex items-center space-x-3">
+      <span class="text-indigo-500 text-4xl font-bold">Portfolio</span>
+    </div>
+
+    <div class="hidden md:flex space-x-10 text-[#0b1e35] font-semibold">
+      <a href="#home"class="px-2 py-1 rounded-xl bg-indigo-500 cursor-pointer h-auto text-white hover:text-blue-700 transition-transform duration-300 hover:scale-110">Home</a>
+      <a href="#about" class=" px-2 py-1 rounded-xl bg-indigo-500 cursor-pointer h-auto text-white hover:text-blue-700 transition-transform duration-300 hover:scale-110">About me</a>
+      <a href="#contact" class="px-2 py-1 rounded-xl bg-indigo-500 cursor-pointer h-auto text-white hover:text-blue-700 transition-transform duration-300 hover:scale-110">Contact me</a>
+    </div>
+  </nav>
+
+    <section
+      id="home"
+      class="min-h-screen flex flex-row gap-[10vw] justify-center items-center text-center bg-gradient-to-b from-[#0a0b1a] to-[#000000] text-white"
+    >
+    <div class="flex flex-col justify-center items-center text-center">
+      <h1 class="text-5xl font-bold mb-4">
+        Hey I'm <span class="text-indigo-400">Tyliann</span>
+      </h1>
+      <p class="text-xl mb-8">
+        They call me mad. All artists are mad.
+      </p>
+      </div>
+      <div class="flex flex-col justify-center items-center">
+    <div class="grid md:grid-row-3 gap-8">
+      <div class="bg-gray-400 border-2 border-cyan-300 shadow-md rounded-xl overflow-hidden hover:shadow-xl ">
+      <img src="/img/head.png" alt="" class="w-full h-50 object-cover">
+      </div>
+    </div>
+
+    </section>
+
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+
+    <section id="about" class="py-20 bg-[#0d1021] border-t border-indigo-900/40 text-gray-800">
+  <div class="max-w-4xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-6 text-indigo-400 text-center ">About me</h2>
+    <p class="text-center text-white leading-relaxed mb-4">
+      I'm currently a student at <span class="font-semibold">EPITECH</span> and currently doing a <span class="font-semibold">Pre-Msc</span>.<br>
+      Here are the languages that I've learned so far.
+    </p>
+    <div class="flex gap-4 justify-center mt-8 flex-wrap">
+      <span class="px-4 py-2 bg-indigo-800/40 text-indigo-300 rounded-lg cursor-pointer border border-indigo-700 transform transition-transform duration-300 hover:scale-110">Python</span>
+      <span class="px-4 py-2 bg-indigo-800/40 text-indigo-300 rounded-lg cursor-pointer border border-indigo-700 transform transition-transform duration-300 hover:scale-110">Java</span>
+      <span class="px-4 py-2 bg-indigo-800/40 text-indigo-300 rounded-lg cursor-pointer border border-indigo-700 transform transition-transform duration-300 hover:scale-110">Java-script</span>
+      <span class="px-4 py-2 bg-indigo-800/40 text-indigo-300 rounded-lg cursor-pointer border border-indigo-700 transform transition-transform duration-300 hover:scale-110">PHP</span>
+      <span class="px-4 py-2 bg-indigo-800/40 text-indigo-300 rounded-lg cursor-pointer border border-indigo-700 transform transition-transform duration-300 hover:scale-110">HTML and CSS</span>
+      <span class="px-4 py-2 bg-indigo-800/40 text-indigo-300 rounded-lg cursor-pointer border border-indigo-700 transform transition-transform duration-300 hover:scale-110">TailWind</span>
+    </div>
+    <div class="flex  flex-col gap-4 mt-8">
+    <h2 class="text-3xl font-bold mb-6 text-indigo-400 text-center ">First step in the professional world</h2>
+    <p class="text-center text-white leading-relaxed mb-4">
+      I've had an internship in High-school in a startup and they affiliated as a Q/A Tester, It was fun correcting bugs and errors 
+      in a website, but putting everything in a excel was the longest and hardest task of the internship.
+    </p>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="py-20 bg-gradient-to-b from-[#0a0b1a] to-[#08091b]">
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-10 text-indigo-400 text-center">My projects</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-gray-400 border-2 border-cyan-300 shadow-md rounded-xl overflow-hidden hover:shadow-xl transition transform transition-transform duration-300 hover:scale-110">
+        <img src="/img/test.png" alt="" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-2">JobBoard as a group</h3>
+          <p class="text-black mb-4">A website to handle/post or apply for a job.</p>
+        </div>
+      </div>
+      <div class="bg-gray-400 border-2 border-cyan-300 shadow-md rounded-xl overflow-hidden hover:shadow-xl transition transform transition-transform duration-300 hover:scale-110">
+        <img src="/img/cv_online.png" alt="" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-2">A digital-cv</h3>
+          <p class="text-black mb-4">It is just a digital-cv with more or less additions.</p>
+           <div class="flex justify-between">
+            <a href="https://tylianncf.github.io/cv_en_ligne" class="text-indigo-500 font-medium hover:underline">GitHub link</a>
+          </div>
+        </div>
+      </div>
+      <div class="bg-gray-400 border-2 border-cyan-300 shadow-md rounded-xl overflow-hidden hover:shadow-xl transition transform transition-transform duration-300 hover:scale-110 ">
+        <img src="/img/work.png" alt="Work in progress" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-2">Building a project</h3>
+          <p class="text-black mb-4">For now there is no other complete projects, they will arrive soon enough.</p>
+           <div class="flex justify-between">
+    </div>
+  </div>
+</section>
+
+<footer id="contact" class="py-12 bg-[#0b0d1f] border-t border-indigo-900/50 text-center text-gray-400">
+    <p>© 2025 - Tyliann. Made with <span class="text-indigo-400">Tailwind CSS</span>.</p>
+    <div class="mt-4 flex justify-center gap-6">
+      <a href="mailto:tcellierfuma@gmail.com" class="hover:text-indigo-300">My Email</a>
+      <a href="https://github.com/TyliannCF" class="hover:text-indigo-300">GitHub</a>
+      <a href="https://www.linkedin.com/in/tyliann-cellier-fuma-66850936a/" class="hover:text-indigo-300">LinkedIn</a>
+      <a href="img/CV Tyliann Alternance 2026-2028.pdf" download class="hover:text-indigo-300">Download my CV (PDF)</a>
+    </div>
+  </footer>
+  </body>
+</html>
